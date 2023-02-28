@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "solid_login/login.html",
+    "href": "solid_login/login.html",
+    "title": "mweb_playwright_automation",
+    "section": "",
+    "text": "#\n\n\n\n# import pyaml module to \nimport yaml\nfrom yaml.loader import SafeLoader\n\nOpen and load the settings file to grab credentials\n\ncredentials = None\n\n# open settings file and grab credentials \nwith open(\"settings.yml\") as f:\n    credentials = yaml.load(f, Loader=SafeLoader)\n\n\ncredentials\n\n{'dev': {'username': 'GMohorotshe',\n  'password': '',\n  'baseUrl': 'https://solidportaldev.mwebaws.co.za/mwebcore/admin/login/login.jsp'},\n 'prod': {'username': 'GMohorotshe',\n  'password': '',\n  'baseUrl': 'https://solidportaldev.mwebaws.co.za/mwebcore/admin/login/login.jsp'}}\n\n\nOur settings.yml stores dev and prod login credentials\n\n#from playwright.sync_api import Page, expect\n\nclass SolidLogin:\n    def __init__(self, baseUrl: str, username: str, password: str):\n        self.baseUrl = baseUrl"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "mweb_playwright_automation",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "mweb_playwright_automation",
+    "section": "Install",
+    "text": "Install\npip install mweb_playwright_automation"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "mweb_playwright_automation",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\nprint(\"Hello world!\")"
+  }
+]
