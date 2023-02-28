@@ -1,0 +1,9 @@
+dev:
+    username: 'GMohorotshe'
+    password: ''
+    baseUrl: 'https://solidportaldev.mwebaws.co.za/mwebcore/admin/login/login.jsp'
+
+prod:
+    username: 'GMohorotshe'
+    password: ''
+    baseUrl: 'https://solidportaldev.mwebaws.co.za/mwebcore/admin/login/login.jsp'
