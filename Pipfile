@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 notebook = "*"
 nbdev = "*"
+pytest-playwright = "*"
+numpy = "*"
+matplotlib = "*"
+pandas = "*"
 
 [dev-packages]
 
