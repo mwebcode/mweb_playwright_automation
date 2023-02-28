@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "mweb_playwright_automation"
+  site-url: "https://mwebcode.github.io/mweb_playwright_automation"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+  repo-branch: master
+  repo-url: "https://github.com/mwebcode/mweb_playwright_automation"
